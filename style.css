@@ -108,14 +108,13 @@ span {
 section {
   width: 100%;
   height: auto;
-  background-color: aqua;
 }
 
 .container {
   max-width: 1160px;
   height: auto;
   margin: 0 auto;
-  background-color: bisque;
+  background-color: var(--white);
 }
 
 nav {
@@ -127,7 +126,6 @@ nav {
 footer {
   width: 100%;
   height: auto;
-  background-color: aqua;
 }
 
 .display_flex {
@@ -513,4 +511,12 @@ a {
 footer .caption {
   margin-top: 64px;
   margin-bottom: 20px;
+}
+
+.login_container {
+  height: 100%;
+}
+
+.login_title {
+  text-align: center;
 }
